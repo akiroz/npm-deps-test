@@ -1,0 +1,9 @@
+{:main npm-deps-test.core
+ :output-to "out/npm-deps-test.js"
+ :output-dir "out"
+ :install-deps true
+ :optimizations :none
+ :target :browser
+ :npm-deps {:grommet   "1.10.1"
+            :react     "16.2.0"
+            :react-dom "16.2.0"}}
